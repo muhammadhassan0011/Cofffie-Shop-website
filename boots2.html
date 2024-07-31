@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap link --- -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="boots2.css">
+  <link rel="stylesheet" href="bootresponsive.css">
+  <!-- fontvawsome - -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <!---- font link cdn --- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <title>Bootstrap hotel-website</title>
+  <!-- google fonts --- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fasthand&family=Freehand&family=Playfair+Display:ital,wght@0,600;1,600&family=Poppins:wght@300&family=Roboto:ital,wght@1,100&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img height="50"
+            src="https://cdn.pixabay.com/photo/2018/08/30/16/57/coffee-3642712_1280.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#Blog">Blog</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search" id="search">
+            <button class="btn btn-outline-dark" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- -------hero section -------- -->
+    <section class="hero">
+      <div class="hero-content">
+        <h3>Strat Your Day With Fresh Coffee </h3>
+        <p>Taste that you will never forget!, 100% Customer Satisfaction , 0ur Satisfaction are uncountable. <br><span>
+            250,000+</span> meals delivered last year!</p>
+
+        <button class="btn btn1 btn-outline-dark" type="submit">Order Now</button>
+      </div>
+    </section>
+  </header>
+
+  <!-- ABOUT SECTION ---- -->
+  <section id="about">
+    <div class="container">
+      <div class="heading">About <Span>Us</Span></div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://cdn.pixabay.com/photo/2014/12/11/02/56/coffee-563797_640.jpg" class="d-block w-100"
+                    alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://cdn.pixabay.com/photo/2016/11/19/12/54/drink-1839134_640.jpg" class="d-block w-100"
+                    alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://cdn.pixabay.com/photo/2017/03/13/12/34/coffee-2139592_640.jpg" class="d-block w-100"
+                    alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 info">
+
+          <h3>What Makes US Special</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum possimus fugit assumenda quibusdam iure
+            commodi cupiditate consequuntur perferendis doloremque.
+            <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus itaque voluptas minus dolorem
+            officia nobis?Lorem ipsum, dolor sit
+            <br><br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque eveniet hic animi distinctio in facere rem
+            mollitia vel amet.
+          </p>
+          <button class="btn btn2">Explore More</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- about section end  -->
+
+  <!-- top cards  -->
+  <section id="top-cards">
+    <div class="container">
+      <div class="heading2">Our <span>Services</span></div>
+      <div class="row">
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img height="280" src="https://cdn.pixabay.com/photo/2016/08/09/13/21/coffee-1580595_640.jpg" alt="">
+            <div class="layer">
+              <h3>100% Original Taste</h3>
+              <p>Our Products are made with 100% pure ingredients , so you will experience best quality taste!</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img height="280" src="https://cdn.pixabay.com/photo/2015/02/18/12/17/coffee-640647_640.jpg" alt="">
+            <div class="layer">
+              <h3>Fast Delivery</h3>
+              <p>Our Clients are our first periourity, so we provide Fast delivery with in hour.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img height="280" src="https://cdn.pixabay.com/photo/2015/07/12/14/26/coffee-842020_640.jpg" alt="">
+            <div class="layer">
+              <h3>27/7 Avalible</h3>
+              <p>Our services are avalible 27/7, so feel free order at any time even its day or night</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- menu sectionn start  ---- -->
+
+
+  <section id="menu">
+    <div class="container">
+      <div class="heading3">Our <span>Menu</span></div>
+      <!-- <div class="line"></div> -->
+    </div>
+
+    <div class="container" id="container2">
+
+      <!-- ROW 1 -->
+      <div class="row">
+
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="https://static9.depositphotos.com/1001378/1174/i/450/depositphotos_11745961-stock-photo-cup-of-coffee.jpg"
+              alt="">
+
+            <div class="card-body">
+              <div class="star text-center">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <h3 class="text-center">Coffee</h3>
+              <p><strong>$9</strong> <strike>$14</strike> <span class="fa-regular fa-heart"></span> <span
+                  class="fa-solid fa-cart-shopping"></span> </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="https://media.istockphoto.com/id/1387718665/photo/clipping-path-close-up-of-hot-coffee-cup-isolated-on-white-background.webp?b=1&s=612x612&w=0&k=20&c=eXTlq8wV37oFXZzOfn58KpCw-GGDHlLnxpp8cG50Op8="
+              alt="">
+
+            <div class="card-body">
+              <div class="star text-center">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <h3 class="text-center">Black Coffee</h3>
+              <p><strong>$12</strong> <strike>$20</strike> <span class="fa-regular fa-heart"></span> <span
+                  class="fa-solid fa-cart-shopping"></span> </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="https://media.istockphoto.com/id/1414822951/photo/coffee-cup.webp?b=1&s=612x612&w=0&k=20&c=mHo1OFEvtLKe0BWVrfwugSMA7C2Y5tX6llo9d8uEVnk="
+              alt="">
+
+            <div class="card-body">
+              <div class="star text-center">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <h3 class="text-center">Grean Tea</h3>
+              <p><strong>$19</strong> <strike>$30</strike> <span class="fa-regular fa-heart"></span> <span
+                  class="fa-solid fa-cart-shopping"></span> </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="https://st.depositphotos.com/1020804/1337/i/450/depositphotos_13376488-stock-photo-coffee-cup-and-beans.jpg"
+              alt="">
+
+            <div class="card-body">
+              <div class="star text-center">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <h3 class="text-center">Capachinu</h3>
+              <p><strong>$5</strong> <strike>$9</strike> <span class="fa-regular fa-heart"></span> <span
+                  class="fa-solid fa-cart-shopping"></span> </p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+      <!-- ROW TWO   -->
+
+      <div class="row">
+
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="https://static9.depositphotos.com/1642482/1149/i/450/depositphotos_11490374-stock-photo-caffe-espresso-isolated-on-white.jpg"
+              alt="">
+
+            <div class="card-body">
+              <div class="star text-center">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <h3 class="text-center">Tea</h3>
+              <p><strong>$9</strong> <strike>$11</strike> <span class="fa-regular fa-heart"></span> <span
+                  class="fa-solid fa-cart-shopping"></span> </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="https://static5.depositphotos.com/1035494/452/i/450/depositphotos_4525027-stock-photo-cup-of-espresso-coffee-isolated.jpg"
+              alt="">
+
+            <div class="card-body">
+              <div class="star text-center">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <h3 class="text-center">Creamy Tea</h3>
+              <p><strong>$8</strong> <strike>$10</strike> <span class="fa-regular fa-heart"></span> <span
+                  class="fa-solid fa-cart-shopping"></span> </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="https://st.depositphotos.com/1002932/1500/i/450/depositphotos_15006167-stock-photo-opened-take-out-coffee-in.jpg"
+              alt="">
+
+            <div class="card-body">
+              <div class="star text-center">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <h3 class="text-center">Cold Coffee</h3>
+              <p><strong>$16</strong> <strike>$22</strike> <span class="fa-regular fa-heart"></span> <span
+                  class="fa-solid fa-cart-shopping"></span> </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="https://static7.depositphotos.com/1081417/790/i/450/depositphotos_7902984-stock-photo-coffee.jpg"
+              alt="">
+
+            <div class="card-body">
+              <div class="star text-center">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+
+              <h3 class="text-center">Black Tea</h3>
+              <p><strong>$5</strong> <strike>$10</strike> <span class="fa-regular fa-heart"></span> <span
+                  class="fa-solid fa-cart-shopping"></span> </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+  <!-- ------------------menu section end?-===============- -->
+
+  <!---------------------------- PRODUCTS SECTION -------------------------------- - -->
+  <section id="products">
+    <div class="container text-center">
+      <div class="heading4">Our Top Quality <span>Products</span> </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 py-3">
+          <div class="card">
+            <img
+              src="https://st2.depositphotos.com/1022135/5706/i/450/depositphotos_57067103-stock-photo-nescafe-can.jpg"
+              alt="">
+            <div class="card-body">
+              <h3>Arabic Coffee</h3>
+              <p><strong>$100</strong> <strike>$130</strike> <span class="fa-regular fa-heart"></span> <span
+                  class="fa-solid fa-cart-shopping"></span> </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 py-3">
+          <div class="card">
+            <img
+              src="https://st4.depositphotos.com/12777196/21896/i/450/depositphotos_218962330-stock-photo-largs-scotland-october-2018-nescafe.jpg"
+              alt="">
+            <div class="card-body">
+              <h3>Cappuccino Coffee</h3>
+              <p><strong>$90</strong> <strike>$100</strike> <span class="fa-regular fa-heart"></span> <span
+                  class="fa-solid fa-cart-shopping"></span> </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 py-3">
+          <div class="card">
+            <img
+              src="https://st.depositphotos.com/2235295/2786/i/450/depositphotos_27862503-stock-photo-clear-plastic-bag-of-coffee.jpg"
+              alt="">
+            <div class="card-body">
+              <h3>Black Coffee</h3>
+              <p><strong>$150</strong> <strike>$200</strike> <span class="fa-regular fa-heart"></span> <span
+                  class="fa-solid fa-cart-shopping"></span> </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 py-3">
+          <div class="card">
+            <img
+              src="https://st5.depositphotos.com/18165762/65836/i/450/depositphotos_658365520-stock-photo-lavazza-ground-coffee-120-years.jpg"
+              alt="">
+            <div class="card-body">
+              <h3>Decaf Coffee</h3>
+              <p><strong>$113</strong> <strike>$138</strike> <span class="fa-regular fa-heart"></span> <span
+                  class="fa-solid fa-cart-shopping"></span> </p>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <button class="btn btn2">Show More &rightarrow;</button>
+    </div>
+
+  </section>
+  <!---------------------------- products secti9on end -------------- -->
+
+  <!-- ----------------------------------contact start section ------------------------------ -->
+  <section id="Contact">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6">
+
+          <div class="heading6">Contact <span>Us</span></div>
+          <p class="des">You can contact us here & can give us your feedbag !</p>
+          <div class="md-3 py-2">
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+          </div>
+
+          <div class="md-3 py-2">
+            <input type="email" class="form-control" id="exampleFormControlInput1"
+              placeholder="Enter your email address">
+          </div>
+
+          <div class="md-3 py-2">
+            <input class="form-control" placeholder="Enter your phone-number" id="exampleFormControlTextarea1"
+              rows="3"></input>
+          </div>
+
+          <div class="md-3 py-2">
+            <div class="btn btn-group">Submit</div>
+
+          </div>
+        </div>
+
+        <div class="col-md-5" id="col">
+          <h1>Info</h1>
+          <p class=""><span class="fa-solid fa-envelope"></span> hmo40016@gmail.com</p>
+          <p><span class="fa-sharp fa-solid fa-phone"></span> +03 234895-61</p>
+          <p><span class="fa-brands fa-whatsapp"></span> +02 232348-32</p>
+          <p><span class="fa-solid fa-building-columns"></span> Lahore near lakhmi chonk</p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <!-- ----------------------------------contact  end section ------------------------------ -->
+
+  <!----------------------------------- blog sedction ------------------------------- -->
+  <section id="Blog">
+    <div class="heading7 text-center">Latest <span>Blogs</span></div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 py-3">
+          <div class="card">
+            <img
+              src="https://st.depositphotos.com/2208684/4126/i/450/depositphotos_41260981-stock-photo-young-man-sitting-in-coffee.jpg"
+              alt="">
+            <div class="card-body">
+              <h3>Our Branch at Lahore</h3>
+              <h4>Since 1999-2023</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quaerat pariatur dolorem a quod qui
+                repudiandae suscipit...</p>
+              <button class="btn">Read more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3">
+          <div class="card">
+            <img
+              src="https://st.depositphotos.com/1002969/3908/i/450/depositphotos_39086945-stock-photo-typical-parisian-cafe.jpg"
+              alt="">
+            <div class="card-body">
+              <h3>Our Branch at Lahore</h3>
+              <h4>Since 1999-2023</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quaerat pariatur dolorem a quod qui
+                repudiandae suscipit...</p>
+              <button class="btn">Read more</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3">
+          <div class="card">
+            <img
+              src="https://st2.depositphotos.com/6672578/9897/i/450/depositphotos_98977056-stock-photo-coffee-shop-with-customers-sitting.jpg"
+              alt="">
+            <div class="card-body">
+              <h3>Our Branch at Lahore</h3>
+              <h4>Since 1999-2023</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quaerat pariatur dolorem a quod qui
+                repudiandae suscipit...</p>
+              <button class="btn">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -------------blog sevction ================== -->
+
+  <!-- footer section ----------------------- -->
+  <footer id="footer">
+    <div class="container">
+
+      <div class="icon">
+        <a class="navbar-brand" href="#"><img height="50"
+            src="https://cdn.pixabay.com/photo/2018/08/30/16/57/coffee-3642712_1280.png" alt="">&upuparrows;</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+
+      </div>
+      <p>You can also follow us on our social media pages below:</p>
+
+
+      <div class="social-icons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+      </div>
+
+      <p>&copy; Designed by Muhammad Hassan</p>
+
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
